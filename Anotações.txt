@@ -103,5 +103,16 @@ git push -u origin master
 Username for 'https://github.com': sauloejrv@gmail.com
 Password for 'https://sauloejrv@gmail.com@github.com': Pai50Mae52Eu88
 
+------------------------------------------------------
+-- ENVIANDO PARA O GITHUB - FIM
+------------------------------------------------------
 
+
+------------------------------------------------------
+-- IMPORTANDO BIBLIOTECAS JS
+------------------------------------------------------
+
+npm init -f
+npm i --save lodash
+npm i --save-dev @types/lodash
 

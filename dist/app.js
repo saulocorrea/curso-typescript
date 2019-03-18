@@ -2,6 +2,8 @@
 exports.__esModule = true;
 var naves_base_1 = require("./naves-base");
 var naves_guerra_1 = require("./naves-guerra");
+var _ = require("lodash");
+console.log(_.pad("NAVES DE GUERRA", 50, '*'));
 var nave = new naves_base_1.NaveBase('hyperdrive');
 nave.entrarNoEspaco();
 var falcon = new naves_guerra_1.MileniumFalcon();
