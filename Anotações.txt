@@ -88,3 +88,20 @@ C:\Users\Saulo\Desktop\CursoTINO\angular\typescript>tsc
 C:\Users\Saulo\Desktop\CursoTINO\angular\typescript>node dist/app
 Hello
 
+
+------------------------------------------------------
+-- ENVIANDO PARA O GITHUB
+------------------------------------------------------
+
+cd C:\Users\Saulo\Desktop\CursoTINO\angular\typescript
+git init
+git add .
+git commit -m "Adicionando arquivos"
+git remote add origin https://github.com/saulocorrea/curso-typescript.git
+git push -u origin master
+
+Username for 'https://github.com': sauloejrv@gmail.com
+Password for 'https://sauloejrv@gmail.com@github.com': Pai50Mae52Eu88
+
+
+
