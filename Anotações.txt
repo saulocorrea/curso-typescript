@@ -1,0 +1,90 @@
+------------------------------------------------------
+-- INSTALAÇÃO
+------------------------------------------------------
+
+C:\Users\Saulo>node -v
+v10.15.1
+
+C:\Users\Saulo>npm -v
+6.4.1
+
+C:\Users\Saulo>ng -g
+'ng' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Saulo>npm install -g @angular/cli
+C:\Users\Saulo\AppData\Roaming\npm\ng -> C:\Users\Saulo\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\@angular\cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @angular/cli@7.3.6
+added 295 packages from 180 contributors in 34.223s
+
+C:\Users\Saulo>ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 7.3.6
+Node: 10.15.1
+OS: win32 x64
+Angular:
+...
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.13.6
+@angular-devkit/core         7.3.6
+@angular-devkit/schematics   7.3.6
+@schematics/angular          7.3.6
+@schematics/update           0.13.6
+rxjs                         6.3.3
+typescript                   3.2.4
+
+C:\Users\Saulo>
+------------------------------------------------------
+-- INSTALAÇÃO - FIM
+------------------------------------------------------
+
+
+------------------------------------------------------
+-- INSTALAÇÃO TYPESCRIPT
+------------------------------------------------------
+
+C:\Users\Saulo>tsc -v
+'tsc' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\Saulo>npm install -g typescript
+C:\Users\Saulo\AppData\Roaming\npm\tsserver -> C:\Users\Saulo\AppData\Roaming\npm\node_modules\typescript\bin\tsserver
+C:\Users\Saulo\AppData\Roaming\npm\tsc -> C:\Users\Saulo\AppData\Roaming\npm\node_modules\typescript\bin\tsc
++ typescript@3.3.3333
+added 1 package from 1 contributor in 4.379s
+
+C:\Users\Saulo>tsc -v
+Version 3.3.3333
+
+C:\Users\Saulo>
+
+------------------------------------------------------
+-- INSTALAÇÃO TYPESCRIPT - FIM
+------------------------------------------------------
+
+-- COMPILAR UM ARQUIVO *.TS
+C:\Users\Saulo\Desktop\CursoTINO\angular\typescript>tsc app.ts
+
+-- MONITORAR POR MUDANÇAS EM UM PASTA -- Para desenvolvimento isso é tri porque fica compilando sozinho.
+C:\Users\Saulo\Desktop\CursoTINO\angular\typescript>tsc -w
+
+-- Compilar Usando o TSCONFIG.JSON -- Para aproveitar as configurações de saída dos JSs
+C:\Users\Saulo\Desktop\CursoTINO\angular\typescript>tsc
+
+-- Rodar O Arquivo Com NODE
+C:\Users\Saulo\Desktop\CursoTINO\angular\typescript>node dist/app
+Hello
+
